@@ -20,6 +20,7 @@
 <resources>
 	<string name="app_name">s85</string>
 	<string name="app_settings">s85 Config</string>
+	<string name="settings">Configuration</string>
 	<string name="pref_token_title">Token</string>
 	<string name="pref_token_summary">User login token</string>
 	<string name="pref_expires_title">Expires</string>
