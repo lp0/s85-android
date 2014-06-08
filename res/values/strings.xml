@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	s85-android - Android s85 Client
+
+	Copyright 2014  Simon Arlott
+
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+	<string name="app_name">s85</string>
+	<string name="app_settings">s85 Config</string>
+	<string name="pref_token_title">Token</string>
+	<string name="pref_token_summary">User login token</string>
+	<string name="pref_expires_title">Expires</string>
+	<string name="pref_expires_summary">Expiry time to use when sharing content</string>
+
+	<string-array name="pref_expires_names">
+		<item>Never expire</item>
+		<item>2 Years</item>
+		<item>6 Months</item>
+		<item>3 Months</item>
+		<item>1 Month</item>
+		<item>15 Days</item>
+		<item>10 Days</item>
+		<item>5 Days</item>
+		<item>3 Days</item>
+		<item>1 Day</item>
+		<item>12 Hours</item>
+		<item>6 Hours</item>
+		<item>1 Hour</item>
+		<item>30 Minutes</item>
+		<item>15 Minutes</item>
+	</string-array>
+	<string-array name="pref_expires_values">
+		<item>never</item>
+		<item>63072000</item>
+		<item>15552000</item>
+		<item>7776000</item>
+		<item>2592000</item>
+		<item>1296000</item>
+		<item>864000</item>
+		<item>432000</item>
+		<item>259200</item>
+		<item>86400</item>
+		<item>43200</item>
+		<item>21600</item>
+		<item>3600</item>
+		<item>1800</item>
+		<item>900</item>
+	</string-array>
+
+</resources>
